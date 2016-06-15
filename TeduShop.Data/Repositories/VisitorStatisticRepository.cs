@@ -3,7 +3,7 @@ using TeduShop.Model.Models;
 
 namespace AfosiShop.Data.Repositories
 {
-    public interface IVisitorStatisticRepository
+    public interface IVisitorStatisticRepository : IRepository<VisitorStatistic>
     {
     }
 
